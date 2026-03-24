@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Student Management System</h1>
+
+    <div class="form">
+    <input type="number" id="id" placeholder="Enter Student ID ">
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="number" id="age" placeholder="enter Age">
+    <input type="text" id="branch" placeholder="Enter branch">
+
+    <button onclick="addStudent()" id="btn" class="add-btn">Add</button>
+    </div>
+    
+
+    <div class="action">
+    <input type="text" id="search" placeholder="Search name" onkeyup="searchStudent()">
+
+    <button onclick="sortByName()" class="sort-btn">Sort Name</button>
+    <button onclick="sortByAge()" class="sort-btn">Sort Age</button>
+    
+    </div>
+
+    <table border="2">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Branch</th>
+            <th>Action</th>
+        </tr>
+        <tbody id="tableBody"></tbody>
+    </table>
+    </div>
+    <script src="student.js"></script>
+</body>
+</html>

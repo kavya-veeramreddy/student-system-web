@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center ;
+    background-color: rgb(158, 132, 253);
+    
+}
+.container{
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+h1{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(8, 8, 53);
+}
+button{
+    background-color: rgb(233, 225, 225);
+    border-radius:6px ;
+    padding: 6px 10px;
+    border:1px solid black;
+    
+}
+button:hover {
+  background-color:rgb(204, 201, 201);
+  cursor: pointer;
+  border:2px solid black;
+
+}
+table{
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: white;
+    margin-top: 15px;
+    width: 70%;
+    border: 1px solid black;
+   border-radius: 20px;
+   overflow: hidden;
+   
+}
+th, td{
+    padding: 5px;
+    border:1px solid black;
+}
+
+td{
+    padding: 10px;
+}
+th{
+    background-color: rgb(175, 167, 167);
+}
+
+input{
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+    width: 150px;
+    
+
+}
+.sort-btn{
+    background-color: #e28e11;
+    color: white;
+}
+
+.edit-btn{
+    background-color: #2196f3;
+    color: white;
+    margin-right: 5px;
+}
+.del-btn{
+    background-color: #f44336;
+    color: white;
+}
+.add-btn{
+    background-color: #4caf50;
+}
+
+
+#btn{
+   padding: 10px 15px;
+   color: white;
+}
+
+.action{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#search{
+    height: 22px;
+}
