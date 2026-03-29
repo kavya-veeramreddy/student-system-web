@@ -1,11 +1,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align:center ;
-    background-color: rgb(158, 132, 253);
+    background-color: #9b7f6a;
     
 }
 .container{
-    background-color: whitesmoke;
+    background-color: #f3e4c9;
     padding: 20px;
     width: 80%;
     margin: auto;
@@ -16,12 +16,22 @@ body{
 .form{
     display: flex;
     justify-content: center;
+    align-items: center;
+    marign:10px 0;
     gap: 10px;
+}
+.form label{
+    width:180px;
+    text-align:left;
+}
+.form input{
+    padding:8px;
+    width:250px;
 }
 h1{
     margin-top: 10px;
     text-align: center;
-    color: rgb(8, 8, 53);
+    color: #a54c46;
 }
 button{
     background-color: rgb(233, 225, 225);
@@ -70,34 +80,46 @@ input{
 
 }
 .sort-btn{
-    background-color: #e28e11;
-    color: white;
+    background-color: ##ffcdc9;
+    color: black;
 }
 
 .edit-btn{
-    background-color: #2196f3;
-    color: white;
+    background-color: #aedefc;
+    color: black;
     margin-right: 5px;
 }
 .del-btn{
-    background-color: #f44336;
-    color: white;
+    background-color: #e36a6a;
+    color: black;
 }
 .add-btn{
-    background-color: #4caf50;
+    background-color: #94a378;
+    width:120px;
 }
 
 
 #btn{
    padding: 10px 15px;
-   color: white;
+   color: black;
 }
 
 .action{
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin:10px 0;
     padding: 10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
 }
 #search{
     height: 22px;
+}
+.action label{
+    width:180px;
+    text-align:left;
+}
+.action input{
+    padding:8px;
+    width:250px;
 }
