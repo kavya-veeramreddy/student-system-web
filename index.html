@@ -11,18 +11,28 @@
     <h1>Student Management System</h1>
 
     <div class="form">
-    <input type="number" id="id" placeholder="Enter Student ID ">
-    <input type="text" id="name" placeholder="Enter Name">
-    <input type="number" id="age" placeholder="enter Age">
-    <input type="text" id="branch" placeholder="Enter branch">
-
-    <button onclick="addStudent()" id="btn" class="add-btn">Add</button>
+    <label><b>Enter ID: </b></label><input type="number" id="id" placeholder="Enter Student ID "><br>
     </div>
-    
+        <div class="form">
+             <label><b>Enter Full Name: </b></label><input type="text" id="name" placeholder="Enter Name"><br>
+        </div>
+        <div class="form">
+              <label><b>Enter Age: </b></label><input type="number" id="age" placeholder="enter Age"><br>
+        </div>
+        <div class="form">
+             <label><b>Enter Branch: </b></label><input type="text" id="branch" placeholder="Enter branch"><br>
+        </div>
+        <div class="form">
+                <button onclick="addStudent()" id="btn" class="add-btn">Add</button>
+        </div>
 
+
+        
     <div class="action">
-    <input type="text" id="search" placeholder="Search name" onkeyup="searchStudent()">
-
+    <label><b>Search By Name: </b></label><input type="text" id="search" placeholder="Search name" onkeyup="searchStudent()"><br>
+    </div>
+        
+    <div class="action">
     <button onclick="sortByName()" class="sort-btn">Sort Name</button>
     <button onclick="sortByAge()" class="sort-btn">Sort Age</button>
     
