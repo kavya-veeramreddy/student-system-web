@@ -94,7 +94,8 @@ function searchStudent(){
     <td>${s.name}</td>
     <td>${s.age}</td>
     <td>${s.branch}</td>
-    <td><button onClick="deleteStudent(${index})">Delete</button></td>
+    <button class="edit-btn" onClick="editStudent(${index})">Edit</button>
+    <td><button class="del-btn" onClick="deleteStudent(${index})">Delete</button></td>
     </tr>
     `;
         }
